@@ -16,7 +16,7 @@ router := gin.Default()
 router.GET("/albums", getAlbums)
 router.POST("/albums", postAlbums)
 
-router.Run("localhost:8080")
+router.Run("https://golang-tst.herokuapp.com")
 }
 
 // albums slice to seed record album data.
